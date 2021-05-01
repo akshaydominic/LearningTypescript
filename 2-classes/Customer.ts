@@ -1,4 +1,4 @@
-class Customer1{
+export class Customer1{
     private _firstName:string;
     private _lastName:string;
 
@@ -7,18 +7,16 @@ class Customer1{
         this._lastName=lastName;
     }
     
-    public get firstName():string{
+    get firstName():string{
         return this._firstName;
     } 
-    public set firstName(Name:string){
+    set firstName(Name:string){
         this._firstName=Name;
     }
    
      
  }
- let cus1 = new Customer1("akshay","a");
- cus1.firstName="john";
- console.log(cus1.firstName);
+ 
 
  
  
