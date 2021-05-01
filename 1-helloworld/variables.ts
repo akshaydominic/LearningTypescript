@@ -9,6 +9,7 @@ console.log("Last Name :"+last_name);
 console.log("Age :"+Age);
 console.log("Male :"+ismale);
 
+console.log(`Hi welcome ${first_name} ${last_name}`);
 
 
 
