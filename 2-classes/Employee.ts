@@ -1,7 +1,6 @@
 class Employee{
     constructor(private firstName:string, private lastName:string){
-        this.firstName=firstName;
-        this.lastName=lastName;
+     
     }
 
 }
