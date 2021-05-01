@@ -1,3 +1,4 @@
+"use strict";
 var first_name = "Akshay";
 var last_name = "A";
 var Age = 23;
